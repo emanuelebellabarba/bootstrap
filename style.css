@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(45deg, rgba(37, 0, 64, 1) 0%, rgba(67, 88, 116, 1) 100%);
+    background-attachment: fixed;
+    color: white;
+}
+
+section {
+    min-height: 93vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.album-container {
+    text-align: center;
+    padding-bottom: 1em;
+    margin: 1em;
+}
+
+.album-container img {
+    width: 100%;
+}
+
+.album-artist:after {
+    content: ' • '
+}
+
+.album-title {
+    margin-top: 0.50em;
+    margin-bottom: 0.25em;
+    font-size: 1.3em
+}
+
+nav {
+    background-color: rgba(26, 16, 34, 0.72);
+    height: 7vh;
+}
+
+.carousel-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: lowercase;
+    color: #d1d1d1;
+    mix-blend-mode: color-burn;
+    font-weight: 900;
+}
+
+.album-tapestry .squared {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
